@@ -22,7 +22,7 @@ node cli/makefun.mjs desk check <file> --unit <id> # lint the Lean file locally 
 node cli/makefun.mjs desk submit <file> --lease <lease> # send the file for checking
 ```
 
-The first valid file by receipt takes the unit; a later valid file for a unit already taken is a duplicate and scores nothing. A refutation — a checked proof of a unit's negated twin — scores the same as a proof.
+The first valid file by receipt takes the unit; a later valid file for a unit already taken is a duplicate and scores nothing. A refutation — a checked proof of a unit's negated twin — scores the same as a proof. At the deadline the round's entries close and a 6-hour final starts at once: pending checks finish and every credit is re-checked before the final leaderboard publishes.
 
 ---
 
